@@ -247,6 +247,93 @@ ReactDOM.createRoot(document.getElementById('root')).render(<App />);
   }
 })();
 </script>
+
+<section id="seo-content">
+  <style>
+    #seo-content{max-width:760px;margin:2.5rem auto;padding:0 1.25rem 3rem;font-family:'Segoe UI',system-ui,Arial,sans-serif;color:#334155;line-height:1.7}
+    #seo-content h2{font-size:1.35rem;color:#0f172a;margin:2rem 0 .75rem}
+    #seo-content h3{font-size:1.05rem;color:#0f172a;margin:1.25rem 0 .5rem}
+    #seo-content p,#seo-content li{font-size:.95rem}
+    #seo-content ul{padding-left:1.4rem;margin:.5rem 0}
+    #seo-content .example{background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:1rem 1.25rem;margin:1rem 0}
+    @media(prefers-color-scheme:dark){#seo-content{color:#cbd5e1}#seo-content h2,#seo-content h3{color:#f1f5f9}#seo-content .example{background:#1e293b;border-color:#334155}}
+  </style>
+  <h2>How to Use the New Zealand Income Tax Calculator</h2>
+  <p>The New Zealand Income Tax Calculator computes your PAYE (Pay As You Earn) income tax, ACC (Accident Compensation Corporation) earner levy, and your net take-home pay for 2024–25. Enter your annual gross salary or your hourly/weekly/fortnightly pay, select your pay frequency, and confirm whether you have a student loan or are a New Zealand tax resident. The calculator applies New Zealand's progressive tax rate schedule, deducts the ACC earner levy, and optionally factors in your student loan repayment rate (currently 12% on income above the threshold). The result shows your tax by bracket, total deductions, and your net annual and weekly take-home pay.</p>
+  <p>New Zealand uses a progressive PAYE system with five income tax bands for 2024–25: 10.5% on income up to NZ$14,000, 17.5% from $14,001 to $48,000, 30% from $48,001 to $70,000, 33% from $70,001 to $180,000, and 39% on income above $180,000. Each band only applies to the income within that range — so a person earning $80,000 pays 10.5% on the first $14,000, 17.5% on the next $34,000, 30% on the next $22,000, and 33% on the remaining $10,000. The ACC earner levy is a flat rate applied to all employment income (1.60% in 2024–25) covering the cost of the no-fault accident compensation scheme. It is deducted alongside PAYE.</p>
+  <p>Unlike many countries, New Zealand has no general goods and services tax-exempt threshold and no separate National Insurance equivalent — the ACC levy covers the equivalent accident insurance function. New Zealand also has no capital gains tax on most assets (though it applies to some investment properties held short-term under the bright-line test). For PAYE employees, income tax is managed entirely through the employer's payroll, and many employees with simple tax affairs do not need to file an income tax return — Inland Revenue (IRD) sends an income summary instead. You may need to file an IR3 return if you have additional income such as rental income, investment income, or overseas income.</p>
+
+  <h2>When to Use the NZ Income Tax Calculator</h2>
+  <ul>
+    <li><strong>New job or salary negotiation:</strong> Convert a gross salary offer into net take-home to understand your real increase.</li>
+    <li><strong>Budgeting:</strong> Work out your after-tax weekly income to plan rent, savings, and living costs.</li>
+    <li><strong>Moving to New Zealand:</strong> Compare your expected take-home with your current salary in another country.</li>
+    <li><strong>Student loan planning:</strong> See how much of your gross pay is automatically deducted for student loan repayments alongside tax.</li>
+    <li><strong>Comparing pay frequencies:</strong> Convert between hourly, weekly, fortnightly, and annual pay to make fair comparisons between job offers.</li>
+  </ul>
+
+  <div class="example"><strong>Example:</strong> Annual salary NZ$65,000. Tax: (14,000×10.5%) + (34,000×17.5%) + (17,000×30%) = $1,470 + $5,950 + $5,100 = $12,520. ACC levy: 65,000 × 1.60% = $1,040. Total deductions: $13,560. Net take-home: <strong>NZ$51,440/year</strong> ≈ <strong>NZ$989/week</strong>.</div>
+
+  <h2>Frequently Asked Questions</h2>
+  <h3>What are New Zealand's income tax rates for 2024–25?</h3>
+  <p>New Zealand's PAYE tax rates for 2024–25 are: 10.5% (up to $14,000), 17.5% ($14,001–$48,000), 30% ($48,001–$70,000), 33% ($70,001–$180,000), and 39% (above $180,000). Each rate applies only to the income within that band, not to your total income.</p>
+  <h3>What is the ACC earner levy?</h3>
+  <p>The ACC earner levy is a compulsory levy deducted from employment income that funds New Zealand's Accident Compensation Corporation — a no-fault accident insurance scheme. The rate for 2024–25 is 1.60% of gross employment income, applied up to the maximum liable earnings threshold (NZ$142,283 for 2024–25).</p>
+  <h3>Do I need to file an income tax return in New Zealand?</h3>
+  <p>Most PAYE employees with simple tax situations do not need to file an IR3 return — Inland Revenue (IRD) sends an income summary at year end. You do need to file if you have untaxed income (e.g. rental income, self-employment, overseas income), if you have large deductible expenses to claim, or if you receive Working for Families tax credits that need reconciling.</p>
+  <h3>How are New Zealand student loan repayments deducted?</h3>
+  <p>Student loan repayments are deducted at 12% of income above the annual repayment threshold ($22,828 in 2024–25) through the PAYE system. If you earn above the threshold, repayments are deducted automatically alongside income tax by your employer and remitted to IRD. You can request a deduction exemption if you have already repaid your loan or live overseas.</p>
+  <h3>Is New Zealand a high-tax country compared to Australia and the UK?</h3>
+  <p>New Zealand's top rate (39%) is comparable to Australia's (45%) and the UK's (45%), though the thresholds differ. However, New Zealand has no compulsory national superannuation contribution equivalent to Australia's superannuation guarantee — KiwiSaver is voluntary (though enrolled automatically). On a like-for-like gross salary, a New Zealand take-home is often slightly higher than Australia's at similar income levels due to lower compulsory super contributions, but lower than the UK when NI and student loan comparisons are factored in.</p>
+</section>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are New Zealand's income tax rates for 2024–25?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "NZ PAYE rates: 10.5% up to $14,000; 17.5% from $14,001–$48,000; 30% from $48,001–$70,000; 33% from $70,001–$180,000; 39% above $180,000. Each rate applies only to income within that band."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the ACC earner levy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The ACC earner levy funds New Zealand's no-fault accident insurance scheme. The 2024–25 rate is 1.60% of gross employment income, applied up to the maximum liable earnings threshold of NZ$142,283."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need to file an income tax return in New Zealand?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most PAYE employees with simple tax situations do not need to file an IR3 — IRD sends an income summary. You must file if you have untaxed income, rental income, self-employment, or overseas income."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How are New Zealand student loan repayments deducted?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Student loan repayments are deducted at 12% of income above the annual repayment threshold ($22,828 in 2024–25) through the PAYE system, automatically alongside income tax."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is New Zealand a high-tax country compared to Australia?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "NZ's top rate (39%) is comparable to Australia's (45%). On similar gross salaries, NZ take-home is often slightly higher than Australia's due to lower compulsory superannuation contributions (KiwiSaver is voluntary)."
+      }
+    }
+  ]
+}
+</script>
 <footer style="background:#1a1a2e;margin-top:48px;padding:28px 24px;text-align:center;font-family:'Segoe UI',system-ui,Arial,sans-serif;font-size:13px;color:#94a3b8;line-height:1.8">
 <div style="font-weight:700;color:#fff;font-size:15px">⚡ Tabutility</div>
 <div>Free, private, browser-based tools. No sign-up, no tracking.</div>
